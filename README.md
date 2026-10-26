@@ -1,34 +1,28 @@
-# Student Attendance Management System
+# Student Task Manager 📚
 
-A beginner-friendly web project for recording and tracking student attendance.
+A beginner-friendly, responsive to-do list for college students, built with HTML, CSS, and JavaScript.
 
 ## Features
-- Add students with unique roll numbers
-- Mark students Present or Absent for a selected date
-- View daily summary and each student's attendance percentage
-- Search students by name or roll number
-- Remove a student and their attendance records
-- Export attendance records to CSV
-- Save data in the browser using `localStorage`
+- Add, edit, delete, and complete tasks
+- Categories: Study, Assignment, Project, Personal
+- High, Medium, and Low priorities
+- Optional deadlines
+- Filter all, pending, and completed tasks
+- Completion progress bar
+- Automatically saves tasks in browser localStorage
+- Responsive design for phones and computers
 
-## Project files
-- `index.html` — page structure
-- `style.css` — design and responsive layout
-- `script.js` — attendance functionality
-
-## How to run
+## Run locally
 1. Download or clone this repository.
-2. Open `index.html` in a modern web browser.
-3. Add students, select a date, mark attendance, and click **Save Attendance**.
-
-No installation or server is required for this demo.
+2. Open `index.html` in your browser. No installation required.
 
 ## Publish with GitHub Pages
-1. Upload these files to your GitHub repository.
-2. Open the repository's **Settings → Pages**.
-3. Under the build/deployment section, choose **Deploy from a branch**.
-4. Select the `main` branch and `/ (root)` folder, then save.
-5. Wait for GitHub Pages to publish the site; the URL will appear in the Pages settings.
+In your GitHub repository, open **Settings → Pages**. Under **Build and deployment**, select **Deploy from a branch**, choose `main` and `/ (root)`, then save.
 
-## Important note
-This is a learning/demo project. Data is stored only in the current browser on the current device, not in a shared online database. Clearing browser storage may remove the data. Use **Export CSV** to make a backup.
+## Files
+- `index.html` — page structure
+- `style.css` — styling
+- `script.js` — task management and local storage
+
+## Note
+Tasks are stored locally in each browser, not in a cloud account.
